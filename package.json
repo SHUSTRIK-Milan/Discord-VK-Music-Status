@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "electron": "^17.1.2",
+    "electron-packager": "^15.4.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "name": "vk-music",
+  "version": "1.0.0",
+  "description": "VK Music status for Discord",
+  "main": "vk.js",
+  "scripts": {
+    "test": "node vk.js",
+    "start": "electron vk.js",
+    "package": "electron-packager . --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Discord-VK-Music-Status"
+  },
+  "keywords": [
+    "vk",
+    "discord",
+    "status"
+  ],
+  "author": "SHUSTRIK",
+  "license": "ISC",
+  "bin": {
+    "mkvmergeaudio": "vk.js"
+  }
+}
