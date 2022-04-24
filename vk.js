@@ -7,7 +7,7 @@ const request = require('request-promise');
 var status = true;
 var configPath = './user.txt';
 
-client.login({clientId: "955035470021156914", clientSecret: "rmM2R85eZJzqzYsXL2ks7hqMvyne10VV"}).then(async () => {
+client.login({clientId: "955035470021156914"}).then(async () => {
     var playNow = false;
     var timestamp;
     var timer;
